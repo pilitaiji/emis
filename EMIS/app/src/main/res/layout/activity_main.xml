@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="tw.com.pilitaiji.emis.MainActivity"
-    android:onClick="goToCollectData">
+    tools:context="tw.com.pilitaiji.emis.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
@@ -16,5 +15,6 @@
         android:text="New Button"
         android:id="@+id/button"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="goToCollectData" />
 </RelativeLayout>
