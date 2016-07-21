@@ -3,7 +3,7 @@ package tw.com.pilitaiji.emis;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class collectData extends AppCompatActivity {
+public class collectDataActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

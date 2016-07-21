@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".collectData"></activity>
+        <activity android:name=".collectData" />
+        <activity android:name=".collectDataActivity"></activity>
     </application>
 
 </manifest>
