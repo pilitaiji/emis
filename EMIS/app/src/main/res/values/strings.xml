@@ -3,4 +3,6 @@
     <string name="package_name">專案名稱:</string>
     <string name="case_name">案號:</string>
     <string name="time_name">時間:</string>
+    <string name="location_name">地點:</string>
+    <string name="disaster_category_name">災情類別:</string>
 </resources>
