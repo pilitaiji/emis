@@ -5,4 +5,6 @@
     <string name="time_name">時間:</string>
     <string name="location_name">地點:</string>
     <string name="disaster_category_name">災情類別:</string>
+    <string name="site_conditions_name">現場狀況:</string>
+    <string name="deal_with_name">處置情形:</string>
 </resources>
