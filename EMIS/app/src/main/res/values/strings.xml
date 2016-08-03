@@ -7,4 +7,9 @@
     <string name="disaster_category_name">災情類別:</string>
     <string name="site_conditions_name">現場狀況:</string>
     <string name="deal_with_name">處置情形:</string>
+    <string name="hurt_name">人員傷亡情形:</string>
+    <string name="police_number">動用警力數:</string>
+
+    <string name="save">存檔</string>
+
 </resources>

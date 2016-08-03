@@ -36,7 +36,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText4"
+                android:id="@+id/package_name"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -55,7 +55,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText2"
+                android:id="@+id/case_name"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="date"
                 android:ems="10"
-                android:id="@+id/editText3"
+                android:id="@+id/time_name"
                 android:layout_alignBottom="@+id/textView3"
                 android:layout_toEndOf="@+id/textView3" />
 
@@ -99,7 +99,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText5"
+                android:id="@+id/location_name"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -118,7 +118,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText6"
+                android:id="@+id/disaster_category_name"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -137,7 +137,7 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText7"
+                android:id="@+id/site_conditions_name"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -156,11 +156,69 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText8"
+                android:id="@+id/deal_with_name"
                 android:layout_weight="1" />
         </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/hurt_name"
+                android:id="@+id/textView10" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hurt_name"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/police_number"
+            android:id="@+id/textView11" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/police_number"
+            android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:id="@+id/button_of_save"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="20dp"
+                android:onClick="save" />
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
     </ScrollView>
+
 </RelativeLayout>
