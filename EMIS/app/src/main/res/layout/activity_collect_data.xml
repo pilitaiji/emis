@@ -61,7 +61,7 @@
 
         <LinearLayout
             android:orientation="horizontal"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
@@ -76,11 +76,8 @@
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="date"
-                android:ems="10"
                 android:id="@+id/time_name"
-                android:layout_alignBottom="@+id/textView3"
-                android:layout_toEndOf="@+id/textView3" />
+                android:layout_weight="1" />
 
         </LinearLayout>
 
